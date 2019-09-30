@@ -62,6 +62,9 @@ function devolverTodoLoDeFirebase() {
         });
     
 }
+
+servidor.get('/', (peticion, respuesta) => respuesta.send('Hola mundo'));
+
 servidor.get('/data', devolverTodoLoDeFirebase());
 servidor.listen(3000,
 
