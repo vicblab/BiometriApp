@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "ttt",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicblab/BiometriApp.git"
+  },
+  "author": "Víctor White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicblab/BiometriApp/issues"
+  },
+  "homepage": "https://github.com/vicblab/BiometriApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.0.0"
+  }
+}
